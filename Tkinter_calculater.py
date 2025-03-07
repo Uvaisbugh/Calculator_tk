@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox
 
+#scripts 
 def on_click(event):
     text = event.widget.cget("text")
     if text == "=":
